@@ -5,7 +5,7 @@ defineProps<{ class?: string }>()
 <template>
   <div class="slidev-layout two-cols" :class="$props.class">
     <div class="col-left">
-      <slot name="left" />
+      <slot />
     </div>
     <div class="col-right">
       <slot name="right" />
