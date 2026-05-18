@@ -12,9 +12,7 @@ const style = computed(() => handleBackground(props.background, true))
 
 <template>
   <div class="slidev-layout section" :style="style" :class="$props.class">
-    <h1>
-      <slot />
-    </h1>
+    <slot />
     <div class="divider" />
   </div>
 </template>

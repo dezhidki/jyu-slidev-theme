@@ -13,8 +13,6 @@ const style = computed(() => handleBackground(props.background, true))
 <template>
   <div class="slidev-layout cover" :style="style" :class="$props.class">
     <div class="accent-line" />
-    <h1>
-      <slot />
-    </h1>
+    <slot />
   </div>
 </template>

@@ -48,11 +48,7 @@ layout: cover
 
 # Typography
 
-Heading font: **Aleo** (serif)
-
-Body font: **Lato** (sans-serif)
-
-Code font: **Fira Code** (monospace)
+Heading: **Aleo** (serif) &nbsp;&middot;&nbsp; Body: **Lato** (sans-serif) &nbsp;&middot;&nbsp; Code: **Fira Code** (monospace)
 
 ---
 layout: statement
@@ -82,7 +78,7 @@ Perfect for comparing concepts or pairing text with code.
 
 ::right::
 
-# Code Example
+## Code Example
 
 ```python
 from university import JYU
@@ -118,7 +114,7 @@ Education is the most powerful weapon which you can use to change the world.
 
 ---
 
-# Image Layout
+# Image Layout Demo
 
 Content on the left, image or visual element on the right.
 
@@ -128,14 +124,14 @@ Use the `::image::` slot to place images, diagrams, or decorative elements.
 layout: image-right
 ---
 
-# Image Layout Right
+# Image Right Layout
 
 Content appears on the left while the image slot fills the right column.
 
 ::image::
 
 <div style="display:flex;align-items:center;justify-content:center;height:100%;padding:2rem">
-  <div style="width:280px;height:280px;border-radius:16px;background:linear-gradient(135deg,var(--jyu-navy),#1a4f8a);display:flex;align-items:center;justify-content:center;color:var(--jyu-gold);font-family:'Aleo',serif;font-size:3.5rem;font-weight:800;box-shadow:0 8px 32px rgba(0,41,87,0.3)">
+  <div style="width:260px;height:260px;border-radius:16px;background:linear-gradient(135deg,#002957,#1a4f8a);display:flex;align-items:center;justify-content:center;color:#C29A5B;font-family:'Aleo',serif;font-size:3rem;font-weight:800;box-shadow:0 8px 32px rgba(0,41,87,0.3)">
     JYU
   </div>
 </div>
@@ -146,26 +142,15 @@ layout: section
 
 # Dark Mode Preview
 
-Switch using the theme toggle in the bottom-right corner ⟶
+Switch using the theme toggle in the bottom-right corner
 
+---
+layout: cover
 ---
 
 # Light Mode Features
 
-This is the default light mode:
-
-- Navy `#002957` headings on white
-- Gold `#C29A5B` accent bars and bullets
-- Sand `#EDE1CE` subtle backgrounds
-- Clean, readable typography
-
-```typescript
-interface JYUTheme {
-  primary: "#002957"
-  accent: "#C29A5B"
-  background: "#FFFFFF"
-}
-```
+Navy headings, gold accents, and clean typography on a crisp white background.
 
 ---
 layout: end
@@ -173,4 +158,4 @@ layout: end
 
 # Thank You
 
-Questions? contact@jyu.fi
+Questions? **contact@jyu.fi**

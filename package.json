@@ -2,7 +2,7 @@
   "name": "slidev-theme-jyu",
   "version": "0.1.0",
   "type": "module",
-  "description": "JYU (University of Jyv\u00e4skyl\u00e4) theme for Slidev \u2014 navy & gold academic theme with light and dark modes",
+  "description": "JYU (University of Jyväskylä) theme for Slidev — navy & gold academic theme with light and dark modes",
   "author": "Denis Zhidkikh",
   "license": "MIT",
   "keywords": [
@@ -30,6 +30,7 @@
     }
   },
   "dependencies": {
+    "@playwright/test": "^1.60.0",
     "@slidev/cli": "^52.15.2"
   }
 }
