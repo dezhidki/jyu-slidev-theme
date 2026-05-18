@@ -1,0 +1,29 @@
+{
+  "name": "slidev-theme-jyu",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "JYU (University of Jyväskylä) theme for Slidev — navy & gold academic theme with light and dark modes",
+  "author": "Denis Zhidkikh",
+  "license": "MIT",
+  "keywords": ["slidev-theme", "slidev"],
+  "engines": {
+    "node": ">=18.0.0",
+    "slidev": ">=v0.47.0"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": {
+      "light": "vitesse-light",
+      "dark": "vitesse-dark"
+    },
+    "defaults": {
+      "fonts": {
+        "sans": "Lato",
+        "serif": "Aleo",
+        "mono": "Fira Code, monospace"
+      },
+      "transition": "fade",
+      "class": "jyu-theme"
+    }
+  }
+}
