@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { handleBackground } from '../layoutHelper'
+import { computed } from 'vue';
+import { handleBackground } from '../layoutHelper';
 
 const props = defineProps<{
-  class?: string
-  background?: string
-}>()
+  class?: string;
+  background?: string;
+}>();
 
-const style = computed(() => handleBackground(props.background, true))
+const style = computed(() => handleBackground(props.background, true));
 </script>
 
 <template>

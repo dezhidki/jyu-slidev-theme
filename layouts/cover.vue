@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { handleBackground } from '../layoutHelper'
-import logoSvg from '../assets/jyu-logo-cover.svg'
+import { computed } from 'vue';
+import logoSvg from '../assets/jyu-logo-cover.svg';
+import { handleBackground } from '../layoutHelper';
 
 const props = defineProps<{
-  class?: string
-  background?: string
-}>()
+  class?: string;
+  background?: string;
+}>();
 
-const style = computed(() => handleBackground(props.background, true))
+const style = computed(() => handleBackground(props.background, true));
 </script>
 
 <template>

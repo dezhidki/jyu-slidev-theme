@@ -3,7 +3,7 @@
    University of Jyväskylä Theme
    ======================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,400&family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Fira+Code:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,400&family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Fira+Code:wght@400;500&display=swap");
 
 /* =========================
    COLOR TOKENS
@@ -14,19 +14,19 @@
   --jyu-navy-deep: #001a38;
   --jyu-navy-light: #003d7a;
   --jyu-navy-muted: #2a4a6e;
-  --jyu-sand: #EDE1CE;
+  --jyu-sand: #ede1ce;
   --jyu-sand-light: #f7f3ed;
-  --jyu-gold: #C29A5B;
+  --jyu-gold: #c29a5b;
   --jyu-gold-light: #d4b47a;
   --jyu-gold-bright: #e8c87a;
-  --jyu-orange: #F1563F;
+  --jyu-orange: #f1563f;
   --jyu-orange-light: #f47a66;
-  --jyu-steel: #6B7F97;
+  --jyu-steel: #6b7f97;
   --jyu-steel-light: #8fa4b6;
-  --jyu-coral: #EA9D90;
-  --jyu-silver: #B2BFCD;
-  --jyu-light: #EFF0F0;
-  --jyu-white: #FFFFFF;
+  --jyu-coral: #ea9d90;
+  --jyu-silver: #b2bfcd;
+  --jyu-light: #eff0f0;
+  --jyu-white: #ffffff;
 
   /* Slidev semantic tokens */
   --slidev-theme-primary: var(--jyu-navy);
@@ -35,7 +35,7 @@
 
   /* Shadows */
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.10);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
@@ -54,7 +54,7 @@ html.dark {
   --jyu-navy-muted: #5a8db5;
   --jyu-sand: #2a2320;
   --jyu-sand-light: #1f2836;
-  --jyu-gold: #E0C080;
+  --jyu-gold: #e0c080;
   --jyu-gold-light: #e8cf99;
   --jyu-gold-bright: #f0ddb0;
   --jyu-orange: #ff7a66;
@@ -75,7 +75,7 @@ html.dark {
    BASE
    ========================= */
 .slidev-layout {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   color: var(--slidev-theme-text);
   background: var(--slidev-theme-background);
   line-height: 1.55;
@@ -128,7 +128,7 @@ html.dark .slidev-layout.image-right {
 .slidev-layout h4,
 .slidev-layout h5,
 .slidev-layout h6 {
-  font-family: 'Aleo', serif;
+  font-family: "Aleo", serif;
   font-weight: 700;
   color: var(--jyu-navy);
   margin-top: 0.6em;
@@ -136,12 +136,24 @@ html.dark .slidev-layout.image-right {
   line-height: 1.25;
 }
 
-.slidev-layout h1 { font-size: 2.2em; }
-.slidev-layout h2 { font-size: 1.7em; }
-.slidev-layout h3 { font-size: 1.35em; }
-.slidev-layout h4 { font-size: 1.1em; }
-.slidev-layout h5 { font-size: 1em; }
-.slidev-layout h6 { font-size: 0.9em; }
+.slidev-layout h1 {
+  font-size: 2.2em;
+}
+.slidev-layout h2 {
+  font-size: 1.7em;
+}
+.slidev-layout h3 {
+  font-size: 1.35em;
+}
+.slidev-layout h4 {
+  font-size: 1.1em;
+}
+.slidev-layout h5 {
+  font-size: 1em;
+}
+.slidev-layout h6 {
+  font-size: 0.9em;
+}
 
 html.dark .slidev-layout h1,
 html.dark .slidev-layout h2,
@@ -162,7 +174,9 @@ html.dark .slidev-layout h6 {
   color: var(--jyu-orange);
   text-decoration: none;
   border-bottom: 1px solid var(--jyu-orange);
-  transition: color 0.2s, border-color 0.2s;
+  transition:
+    color 0.2s,
+    border-color 0.2s;
 }
 
 .slidev-layout a:hover {
@@ -186,7 +200,7 @@ html.dark .slidev-layout h6 {
 }
 
 .slidev-layout ul li::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0.55em;
@@ -211,7 +225,7 @@ html.dark .slidev-layout h6 {
    ========================= */
 /* Inline code */
 .slidev-layout code {
-  font-family: 'Fira Code', 'Courier New', monospace;
+  font-family: "Fira Code", "Courier New", monospace;
   font-size: 0.88em;
   padding: 0.15em 0.4em;
   background: var(--jyu-sand-light);
@@ -451,14 +465,14 @@ html.dark .slidev-layout.section p {
 }
 
 .slidev-layout.section::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background:
-    radial-gradient(ellipse at 20% 50%, rgba(194, 154, 91, 0.10) 0%, transparent 50%),
+    radial-gradient(ellipse at 20% 50%, rgba(194, 154, 91, 0.1) 0%, transparent 50%),
     radial-gradient(ellipse at 80% 20%, rgba(241, 86, 63, 0.06) 0%, transparent 40%);
   pointer-events: none;
 }
@@ -583,7 +597,7 @@ html.dark .slidev-layout.end p {
 }
 
 .slidev-layout.end::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -696,24 +710,56 @@ html.dark .slidev-layout.image-left > :first-child {
 /* =========================
    UTILITY CLASSES
    ========================= */
-.text-navy   { color: var(--jyu-navy) !important; }
-.text-gold   { color: var(--jyu-gold) !important; }
-.text-orange { color: var(--jyu-orange) !important; }
-.text-steel  { color: var(--jyu-steel) !important; }
-.text-coral  { color: var(--jyu-coral) !important; }
-.text-muted  { color: var(--jyu-silver) !important; }
+.text-navy {
+  color: var(--jyu-navy) !important;
+}
+.text-gold {
+  color: var(--jyu-gold) !important;
+}
+.text-orange {
+  color: var(--jyu-orange) !important;
+}
+.text-steel {
+  color: var(--jyu-steel) !important;
+}
+.text-coral {
+  color: var(--jyu-coral) !important;
+}
+.text-muted {
+  color: var(--jyu-silver) !important;
+}
 
-.text-sm  { font-size: 0.75em !important; }
-.text-lg  { font-size: 1.1em !important; }
-.text-xl  { font-size: 1.3em !important; }
-.text-2xl { font-size: 1.6em !important; }
-.text-3xl { font-size: 2em !important; }
+.text-sm {
+  font-size: 0.75em !important;
+}
+.text-lg {
+  font-size: 1.1em !important;
+}
+.text-xl {
+  font-size: 1.3em !important;
+}
+.text-2xl {
+  font-size: 1.6em !important;
+}
+.text-3xl {
+  font-size: 2em !important;
+}
 
-.mt-2 { margin-top: 0.5rem; }
-.mt-4 { margin-top: 1rem; }
-.mt-8 { margin-top: 2rem; }
-.mb-2 { margin-bottom: 0.5rem; }
-.mb-4 { margin-bottom: 1rem; }
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.mt-8 {
+  margin-top: 2rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
 
 .accent-line {
   width: 4rem;
@@ -724,5 +770,10 @@ html.dark .slidev-layout.image-left > :first-child {
 }
 
 /* flex helpers for slot layouts */
-.cols { display: flex; gap: 2rem; }
-.col  { flex: 1; }
+.cols {
+  display: flex;
+  gap: 2rem;
+}
+.col {
+  flex: 1;
+}

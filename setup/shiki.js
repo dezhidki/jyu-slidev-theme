@@ -4,5 +4,5 @@ export default function shikiSetup({ loadTheme }) {
       dark: 'vitesse-dark',
       light: 'vitesse-light',
     },
-  }
+  };
 }
