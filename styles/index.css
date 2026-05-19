@@ -367,6 +367,23 @@ html.dark .slidev-layout.cover h1 + p {
   border-radius: 2px;
 }
 
+/* Decorative JYU logo flame element */
+.slidev-layout.cover .jyu-flame {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 260px;
+  height: auto;
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 0;
+}
+
+html.dark .slidev-layout.cover .jyu-flame {
+  opacity: 0.12;
+  filter: brightness(1.3);
+}
+
 /* =========================
    LAYOUT: default
    ========================= */

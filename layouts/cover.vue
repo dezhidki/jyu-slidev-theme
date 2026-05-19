@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { handleBackground } from '../layoutHelper'
-import JYUFlame from '../components/JYUFlame.vue'
 
 const props = defineProps<{
   class?: string
@@ -13,7 +12,7 @@ const style = computed(() => handleBackground(props.background, true))
 
 <template>
   <div class="slidev-layout cover" :style="style" :class="$props.class">
-    <JYUFlame />
+    <img src="/jyu-logo-cover.svg" alt="" aria-hidden="true" class="jyu-flame" />
     <div class="accent-line" />
     <slot />
   </div>
